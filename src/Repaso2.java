@@ -29,7 +29,7 @@ public class Repaso2 extends acm.program.GraphicsProgram{
 	public void run(){
 		//divido el ancho de la pantalla en 2 para saber donde esta la mitad exacta de la pantalla
 		distanciaX = getWidth()/2;
-		rectangulo.setLocation(distanciaX, rectangulo.getY());
+		rectangulo.setLocation(distanciaX,0);
 	}
 
 }
